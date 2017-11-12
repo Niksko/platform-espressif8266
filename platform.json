@@ -1,6 +1,6 @@
 {
-  "name": "espressif8266_stage",
-  "title": "Espressif 8266 (Stage)",
+  "name": "espressif8266_stage_withhttps",
+  "title": "Espressif 8266 (Stage) (With HTTPS Arduino support)",
   "description": "Espressif Systems is a privately held fabless semiconductor company. They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.",
   "url": "https://espressif.com/",
   "homepage": "http://platformio.org/platforms/espressif8266",
@@ -20,7 +20,7 @@
     "https://raw.githubusercontent.com/yanbe/framework-esp8266-rtos-sdk/master/manifest.json"
   ],
   "frameworks": {
-    "arduino": {
+    "arduino-with-https": {
       "package": "framework-arduinoespressif8266",
       "script": "builder/frameworks/arduino.py"
     },
