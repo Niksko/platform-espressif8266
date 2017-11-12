@@ -20,7 +20,7 @@
     "https://raw.githubusercontent.com/yanbe/framework-esp8266-rtos-sdk/master/manifest.json"
   ],
   "frameworks": {
-    "arduino-with-https": {
+    "arduino": {
       "package": "framework-arduinoespressif8266",
       "script": "builder/frameworks/arduino.py"
     },
